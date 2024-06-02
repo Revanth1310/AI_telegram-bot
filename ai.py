@@ -14,10 +14,10 @@ import matplotlib.patches as patches
 import cv2
 import json
 # Set environment variables (only for testing purposes, remove in production)
-os.environ['TELEGRAM_API_TOKEN'] = '6829012837:AAFhU8KvWusKqAvXI0ip73B88FSeg1sH2tE'
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyB7RoGzQZcAPpmjlOLNBicqKjNrGOG_LUo'
+os.environ['TELEGRAM_API_TOKEN'] = 'YOUR_BOT_API_TOCKEN'
+os.environ['GOOGLE_API_KEY'] = 'GOOGLE_API'
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-OPENWEATHER_API_KEY = 'f5efed3913e16c7855b9a6423d17cd90'
+
 # Debugging: Print the token to check if it's set correctly
 print(f"TELEGRAM_API_TOKEN: {os.getenv('TELEGRAM_API_TOKEN')}")
 print(f"GOOGLE_API_KEY: {os.getenv('GOOGLE_API_KEY')}")
